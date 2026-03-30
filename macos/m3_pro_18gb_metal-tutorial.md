@@ -1,6 +1,6 @@
 # Local LLMs on macOS (Apple Silicon)
 
-The guide provides step-by-step instructions to get a Large Language Model running locally on your Accenture Mac using 
+This guide provides step-by-step instructions to get a Large Language Model running locally on your Accenture Mac using 
 [llama.cpp](https://github.com/ggerganov/llama.cpp). 
 
 llama.cpp is the open-source foundation of popular local LLM tools like [Ollama](https://ollama.com/download) and [LM Studio](https://lmstudio.ai/) with zero restrictions on commerical distribution. 
