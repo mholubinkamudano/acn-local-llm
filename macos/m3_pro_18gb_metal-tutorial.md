@@ -28,7 +28,7 @@ Before starting this, make sure you have the following:
 
 Open **Terminal**.
 
-Create two directories: one for git repositories and one for storing model files. Everything is based on the home folder for robustness and repeatability.
+First, create two directories: one for git repositories and one for storing model files. Everything is based on the home folder for robustness and repeatability.
 
 ```bash
 mkdir ~/git
@@ -40,13 +40,13 @@ mkdir ~/.models
 
 ## 2. Clone Repository
 
-Navigate into your git folder:
+Navigate into the git folder:
 
 ```bash
 cd ~/git
 ```
 
-And clone the project repo:
+And clone the project repository:
 
 ```bash
 cd ~/git
@@ -55,11 +55,9 @@ git clone git@github.com:mholubinkamudano/acn-local-llm.git
 
 This downloads the project files, including the server startup script we'll use later.
 
----
-
 ## 3. System Dependencies
 
-First, w update Homebrew to make sure we have the latest package versions and definitions:
+First, we update Homebrew to make sure we have the latest package versions and definitions:
 
 ```bash
 brew update
